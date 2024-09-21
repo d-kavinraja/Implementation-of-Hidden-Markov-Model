@@ -6,7 +6,7 @@ emission_matrix =np.array ([[0.1,0.9],[0.8,0.2]])
 #Define the initial probabilities
 initial_probabilities = np.array([0.5,0.5])
 #Define the observed sequence
-observed_sequence = np.array([1,1,1,0,0,1])
+observed_sequence = np.array([0,1,0,0,0,0])
 
 # Initialize the alpha matrix
 alpha = np. zeros ((len(observed_sequence) ,len (initial_probabilities) ) )
